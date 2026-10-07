@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Unrolled Parchment Scroll -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M35,30 H165 V170 H35 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M28,25 H36 V175 H28 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M164,25 H172 V175 H164 Z" />
+
+    <!-- Traditional Calligraphy Ink Stroke "道" (The Dao / The Way) or "永" (Forever - classic stroke character) -->
+    <!-- Dot (Dian) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M95,50 C98,46 106,50 102,56 C99,60 93,56 95,50 Z" />
+    <!-- Horizontal & Hook (Heng & Gou) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M65,68 H135 V75 L115,75 Q98,115 130,140 L125,145 Q88,118 108,75 H65 Z" />
+    <!-- Vertical (Shu) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M98,60 H104 V135 H98 Z" />
+    <!-- Slant & Press (Pie & Na) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M70,95 Q85,108 95,115 L93,122 Q80,112 66,102 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M104,105 Q125,120 145,138 L138,144 Q120,128 102,112 Z" />
+
+    <!-- Red Seal Stamp (Yinzhang) in corner -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M130,135 H152 V157 H130 Z" />
+    <path
+        android:fillColor="#FFF"
+        android:pathData="M135,140 H147 V152 H135 Z" />
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M138,142 H144 V150 H138 Z" />
+
+    <!-- Traditional Bamboo Calligraphy Brush resting diagonally -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M125,25 L175,120 L168,124 L118,29 Z" />
+    <!-- Brush Tip (Black hair) -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M175,120 C182,135 186,145 180,150 C172,148 168,138 168,124 Z" />
+</vector>

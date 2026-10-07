@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Lantern top cord & hanger -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M98,15 H102 V35 H98 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M80,35 H120 V45 H80 Z" />
+
+    <!-- Main Lantern Body (Red oval with highlights) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M100,45 C50,45 40,85 40,110 C40,135 50,165 100,165 C150,165 160,135 160,110 C160,85 150,45 100,45 Z" />
+
+    <!-- Vertical lantern rib lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="2.5"
+        android:pathData="M100,45 C75,45 68,85 68,110 C68,135 75,165 100,165" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFC107"
+        android:strokeWidth="2.5"
+        android:pathData="M100,45 C125,45 132,85 132,110 C132,135 125,165 100,165" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="2.5"
+        android:pathData="M100,45 V165" />
+
+    <!-- Gold character medallion: 福 (Good Fortune) in center -->
+    <circle
+        android:cx="100"
+        android:cy="108"
+        android:r="18"
+        android:fillColor="#FFD54F" />
+    <circle
+        android:cx="100"
+        android:cy="108"
+        android:r="16"
+        android:fillColor="#B71C1C" />
+
+    <!-- Stylized 福 emblem -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M94,98 H97 V118 H94 Z M102,98 H108 V103 H102 Z M100,105 H110 V118 H100 Z" />
+
+    <!-- Bottom lantern rim -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M80,165 H120 V173 H80 Z" />
+
+    <!-- Golden Tassels -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M95,173 H105 V178 H95 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M92,178 H108 L105,198 H95 Z" />
+</vector>

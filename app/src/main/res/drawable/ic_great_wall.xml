@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Mountain Background Silhouettes -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M0,130 L45,85 L85,120 L135,70 L175,105 L200,80 L200,200 L0,200 Z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M0,150 L50,110 L95,145 L145,95 L180,125 L200,105 L200,200 L0,200 Z" />
+
+    <!-- Sun / Moon in sky -->
+    <circle
+        android:cx="160"
+        android:cy="50"
+        android:r="22"
+        android:fillColor="#FFCA28" />
+
+    <!-- The Great Wall Ramparts & Pathway -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M0,165 Q40,150 70,165 T140,145 T200,160 L200,185 Q140,170 70,190 T0,185 Z" />
+
+    <!-- Watchtower 1 (Middle) -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M60,135 H85 V165 H60 Z" />
+    <!-- Tower Roof -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M55,135 L72,122 L90,135 Z" />
+    <!-- Battlements crenels on Tower -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M65,145 H69 V152 H65 Z M76,145 H80 V152 H76 Z" />
+
+    <!-- Watchtower 2 (Right peak) -->
+    <path
+        android:fillColor="#455A64"
+        android:pathData="M135,118 H155 V145 H135 Z" />
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M130,118 L145,108 L160,118 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M141,126 H149 V134 H141 Z" />
+
+    <!-- Wall Battlements Steps on Ridge -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M20,162 H25 V156 H20 Z M35,158 H40 V152 H35 Z M95,152 H100 V146 H95 Z M115,146 H120 V140 H115 Z M170,150 H175 V144 H170 Z M185,154 H190 V148 H185 Z" />
+</vector>

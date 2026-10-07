@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Bamboo Mat / Table Surface -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M15,160 H185 V175 H15 Z" />
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M10,172 H190 V178 H10 Z" />
+
+    <!-- Purple Clay Yixing Teapot Body -->
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M70,120 C70,105 85,95 105,95 C125,95 140,105 140,120 C140,145 125,160 105,160 C85,160 70,145 70,120 Z" />
+
+    <!-- Teapot Lid & Knob -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M90,95 H120 V91 H90 Z" />
+    <circle
+        android:cx="105"
+        android:cy="86"
+        android:r="5"
+        android:fillColor="#8D6E63" />
+
+    <!-- Teapot Spout -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M72,118 Q55,108 50,95 L55,93 Q65,108 76,112 Z" />
+
+    <!-- Teapot Handle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="7"
+        android:pathData="M136,108 C155,108 155,145 135,145" />
+
+    <!-- Teacup (Ceramic with Green Tea) -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M150,140 H175 L170,160 H155 Z" />
+    <ellipse
+        android:cx="162"
+        android:cy="142"
+        android:rx="10"
+        android:ry="4"
+        android:fillColor="#66BB6A" />
+
+    <!-- Steam swirls from teapot & cup -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80B0BEC5"
+        android:strokeWidth="2.5"
+        android:pathData="M52,88 Q45,72 55,58 T52,42" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#80B0BEC5"
+        android:strokeWidth="2"
+        android:pathData="M162,132 Q158,118 165,105 T160,90" />
+
+    <!-- Green Tea Leaf Emblem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M30,140 Q40,125 50,132 Q45,145 30,140 Z" />
+</vector>

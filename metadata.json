@@ -1,0 +1,6 @@
+{
+  "name": "Chinese Bhasa",
+  "description": "Comprehensive Chinese (Mandarin) language learning app with Pinyin, Hanzi characters, vocabulary, audio speech, interactive quizzes, culture, and history in Nepali, English, Chinese, and Japanese.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

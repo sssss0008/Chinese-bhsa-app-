@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- White Stupa of Beijing (Miaoying Temple / 白塔寺) designed by Nepali architect Araniko -->
+    <!-- Sky background glow -->
+    <circle
+        android:cx="100"
+        android:cy="90"
+        android:r="75"
+        android:fillColor="#FFF8E1" />
+
+    <!-- Stupa Square Base Plinth (Sumeru Throne) -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M35,160 H165 V175 H35 Z" />
+    <path
+        android:fillColor="#757575"
+        android:pathData="M25,172 H175 V182 H25 Z" />
+
+    <!-- Stupa Lower Drum Terraces -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M50,140 H150 V160 H50 Z" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M45,148 H155 V153 H45 Z" />
+
+    <!-- Inverted Bowl / Dome (Anda / White Bell Body) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,140 C55,95 72,75 100,75 C128,75 145,95 145,140 Z" />
+    <!-- Outline & shadow of white dome -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#CFD8DC"
+        android:strokeWidth="2"
+        android:pathData="M55,140 C55,95 72,75 100,75 C128,75 145,95 145,140" />
+
+    <!-- Harmika Square Box atop dome -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M88,68 H112 V75 H88 Z" />
+
+    <!-- 13 Stepped Rings (Spire / Bhumi) in Gold -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M90,68 L98,34 H102 L110,68 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M85,58 H115 V61 H85 Z M88,48 H112 V51 H88 Z M91,38 H109 V41 H91 Z" />
+
+    <!-- Parasol Canopy & Gilded Jewel Finial (Chhatra) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M84,33 H116 V35 H84 Z" />
+    <circle
+        android:cx="100"
+        android:cy="26"
+        android:r="6"
+        android:fillColor="#FFD54F" />
+
+    <!-- Nepal - China Friendship Ribbon -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M40,185 H160 V192 H40 Z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M95,185 H105 V192 H95 Z" />
+</vector>

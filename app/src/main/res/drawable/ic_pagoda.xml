@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Traditional Chinese Pagoda -->
+    <!-- Clouds floating around -->
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M20,135 Q35,120 50,135 Q65,125 75,135 H20 Z" />
+    <path
+        android:fillColor="#E0F2F1"
+        android:pathData="M130,165 Q145,150 160,165 Q175,155 185,165 H130 Z" />
+
+    <!-- Top Spire Finial -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M98,18 H102 V40 H98 Z" />
+    <circle
+        android:cx="100"
+        android:cy="16"
+        android:r="4"
+        android:fillColor="#FFD54F" />
+
+    <!-- Tier 1 (Top Roof) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M78,48 Q100,38 122,48 L116,42 Q100,34 84,42 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M88,48 H112 V58 H88 Z" />
+
+    <!-- Tier 2 (Middle Roof) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M68,68 Q100,54 132,68 L124,60 Q100,50 76,60 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M80,68 H120 V82 H80 Z" />
+    <!-- Window in Tier 2 -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M96,72 H104 V82 H96 Z" />
+
+    <!-- Tier 3 (Lower Roof) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M56,94 Q100,76 144,94 L134,84 Q100,70 66,84 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M72,94 H128 V112 H72 Z" />
+    <!-- Windows in Tier 3 -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M84,98 H92 V110 H84 Z M108,98 H116 V110 H108 Z" />
+
+    <!-- Tier 4 (Bottom Main Roof) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M42,126 Q100,104 158,126 L146,114 Q100,98 54,114 Z" />
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M62,126 H138 V155 H62 Z" />
+    <!-- Main Entrance Doorway -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M92,135 H108 V155 H92 Z" />
+
+    <!-- Stone Foundation Base -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M48,155 H152 V175 H48 Z" />
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M40,172 H160 V182 H40 Z" />
+</vector>
